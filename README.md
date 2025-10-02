@@ -8,7 +8,7 @@ An Express server that relays Spotify data like top artists, top tracks, and cur
 
 `/top-artists` returns the user's top 10 most listened to artists for the last 4 weeks
 
-`top-tracks` returns the user's top 10 most listened to tracks for the last 4 weeks
+`/top-tracks` returns the user's top 10 most listened to tracks for the last 4 weeks
 
 ## Tech Stack
 
