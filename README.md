@@ -2,11 +2,13 @@
 
 An Express server that relays Spotify data like top artists, top tracks, and currently playing to my personal site.
 
-`retrieveListeningData()` Returns information about the currently playing track, including metadata such as track title, artist, and album
+## Server Routes
 
-`retrieveTopArtists()` the top 10 artists for the current month based on the user’s listening history
+`/now-playing` returns the track that the user is currently listening to
 
-`getTopTracks()` for the current month, ranked by play count
+`/top-artists` returns the user's top 10 most listened to artists for the last 4 weeks
+
+`top-tracks` returns the user's top 10 most listened to tracks for the last 4 weeks
 
 ## Tech Stack
 
